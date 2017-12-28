@@ -4,7 +4,6 @@ package com.demo.util;
 import com.demo.util.*;
 import java.util.*;
 
-import javax.activation.UnsupportedDataTypeException;
 /**
  * Hello world!
  *
@@ -16,26 +15,28 @@ public class App
         // diamondPlus();
         // Child childname = new Child("陆林");
         // System.out.print(childname.getName() + new Child().getName());
-        Student student = new Student();
-        student.setName("老王");
-        student.setAge(16);
-        student.setGrade("高一");
-        student.setClassNum("21班");
-        System.out.println(student.toString());
-        student.test();
-        Test01 test01 = new Test01Impl();
-        test01.eat();
-        test01.dream();
+        // Student student = new Student();
+        // student.setName("老王");
+        // student.setAge(16);
+        // student.setGrade("高一");
+        // student.setClassNum("21班");
+        // System.out.println(student.toString());
+        // student.test();
+        // Test01 test01 = new Test01Impl();
+        // test01.eat();
+        // test01.dream();
 
-        Test02 test001 = new Test01Impl();
-        test001.sleep();
-        test001.running();
+        // Test02 test001 = new Test01Impl();
+        // test001.sleep();
+        // test001.running();
 
-        Test01 test02 = new Test02Impl();
-        test02.eat();
-        test02.dream();
+        // Test01 test02 = new Test02Impl();
+        // test02.eat();
+        // test02.dream();
 
-        System.out.println(sum2());
+        // System.out.println(sum2());
+
+        DBUtils.getConnection();
     }
 
     public static int sum2() {
